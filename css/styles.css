@@ -280,6 +280,7 @@ body.modal-open {
     .navbar-nav .nav-item {
         margin: 5px 0; 
     }
+
 }
 
 @media (max-width: 470px) {
@@ -297,7 +298,11 @@ body.modal-open {
     }
 
     .navbar-nav .nav-link {
-        font-size: 1.2em; 
+        font-size: 1em; 
         padding: 8px 15px; 
+    }
+    
+    form .termos {
+        font-size: 0.7em;
     }
 }
