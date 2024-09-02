@@ -263,6 +263,10 @@ body.modal-open {
         padding: 10px 10px;
         height: 60px;
     }
+    
+    main{
+        h1: 5em;
+    }
 
     .logo img {
         max-height: 40px;
