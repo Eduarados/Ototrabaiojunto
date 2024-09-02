@@ -22,7 +22,7 @@ header {
     position: relative;
 }
 
-/* Estilo do logo */
+
 .logo {
     position: absolute;
     left: 10px;
@@ -33,7 +33,7 @@ header {
     width: auto;
 }
 
-/* Estilo da barra de navegação */
+
 .navbar {
     width: auto;
 }
@@ -68,7 +68,7 @@ header {
     border-radius: 8px;
 }
 
-/* Outras seções */
+
 main {
     display: flex;
     flex-direction: column;
@@ -257,15 +257,14 @@ body.modal-open {
     color: #000000;
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
     header {
         padding: 10px 10px;
         height: 60px;
     }
     
-    main{
-        h1: 5em;
+    h1 {
+        font-size: 5em;
     }
 
     .logo img {
@@ -275,11 +274,11 @@ body.modal-open {
     .navbar-nav {
         flex-direction: column;
         align-items: center;
-        display: flex; /* Mantém o menu visível */
+        display: flex; 
     }
 
     .navbar-nav .nav-item {
-        margin: 5px 0; /* Ajusta o espaçamento vertical entre itens */
+        margin: 5px 0; 
     }
 }
 
@@ -288,13 +287,17 @@ body.modal-open {
         padding: 10px 5px;
         height: 50px;
     }
+    
+    h1 {
+        font-size: 4em;
+    }
 
     .logo img {
         max-height: 30px;
     }
 
     .navbar-nav .nav-link {
-        font-size: 1.2em; /* Ajusta o tamanho da fonte para telas menores */
-        padding: 8px 15px; /* Ajusta o padding dos links */
+        font-size: 1.2em; 
+        padding: 8px 15px; 
     }
 }
